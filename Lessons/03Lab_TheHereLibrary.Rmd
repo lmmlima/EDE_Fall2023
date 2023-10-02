@@ -63,8 +63,9 @@ filenames <- dir(here('Data','Raw'),pattern = ("*.csv"))
 ```{r here in action}
 
 # 1. 
+df <- read.csv("./Data/Raw/NTL-LTER_Lake_ChemistryPhysics_Raw.csv",stringsAsFactors = TRUE)
 
-
+df2 <- read.csv(here('Data','Raw','NTL-LTER_Lake_ChemistryPhysics_Raw.csv' ),stringsAsFactors = TRUE)
 # 2.
 
 ```
